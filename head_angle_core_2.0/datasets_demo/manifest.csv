@@ -1,0 +1,4 @@
+file,subject,group,thickness_mm,sta_scale,seconds,n_valid,seed
+S000_00.npz,S000,low,7.27,0.713,60.0,2844,989821580
+S001_00.npz,S001,mid,10.96,1.023,60.0,2844,2141492029
+S002_00.npz,S002,high,11.65,0.960,60.0,2847,875079008

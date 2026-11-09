@@ -1,0 +1,105 @@
+{
+  "fs_out": 50,
+  "fs_sim": 200,
+  "physio": {
+    "pitch_deg": [
+      -70.0,
+      65.0
+    ],
+    "roll_deg": [
+      -45.0,
+      45.0
+    ],
+    "yaw_deg": [
+      -80.0,
+      80.0
+    ],
+    "roll_scale": 1.0,
+    "yaw_scale": 0.15,
+    "v_peak_max_dps": 180.0,
+    "p_extreme": 0.25
+  },
+  "motion": {
+    "static_s": 4.0,
+    "v_peak_min_dps": 15.0,
+    "min_amp_deg": 3.0,
+    "t_min_s": 0.3,
+    "pause_s": [
+      0.2,
+      3.0
+    ],
+    "p_long_pause": 0.1,
+    "long_pause_s": [
+      3.0,
+      8.0
+    ],
+    "breath_amp_deg": [
+      0.2,
+      0.6
+    ],
+    "breath_hz": [
+      0.2,
+      0.35
+    ],
+    "sway_amp_deg": [
+      0.3,
+      1.5
+    ],
+    "sway_hz": [
+      0.05,
+      0.3
+    ],
+    "p_bank": 0.5
+  },
+  "sta": {
+    "d_max_pitch_mm": 13.5,
+    "d_max_roll_mm": 21.0,
+    "lever_head_m": 0.1,
+    "lever_base_m": 0.12,
+    "tilt_coupling": 1.0,
+    "fc_hz": 1.0,
+    "sigma0_mm": 0.1,
+    "w_amp": 0.7,
+    "w_vel": 0.3,
+    "v_ref_dps": 150.0,
+    "sigma_over_dmax": 0.3333333333333333,
+    "base_scale": 0.5,
+    "lin_axes_scale": [
+      1.0,
+      1.0,
+      0.3
+    ],
+    "thickness_mm": {
+      "low": [
+        6.0,
+        8.0
+      ],
+      "mid": [
+        9.0,
+        11.0
+      ],
+      "high": [
+        11.5,
+        14.0
+      ]
+    },
+    "thickness_ref_mm": 10.0,
+    "individual_logsd": 0.15
+  },
+  "noise": {
+    "gyro_white_rads": 0.0006,
+    "accel_white_g": 0.002,
+    "gyro_bias_sd_rads": 0.01,
+    "gyro_walk_rads_sqrts": 1e-05,
+    "accel_offset_sd_g": 0.02,
+    "accel_scale_sd": 0.01,
+    "mount_sd_deg": 3.0,
+    "dlpf_hz": 20.0,
+    "gyro_range_dps": 250.0,
+    "gyro_lsb_per_dps": 131.0,
+    "accel_range_g": 2.0,
+    "accel_lsb_per_g": 16384.0,
+    "jitter_us": 300,
+    "drop_prob": 0.002
+  }
+}

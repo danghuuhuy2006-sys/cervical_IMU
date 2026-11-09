@@ -1,0 +1,10 @@
+{
+  "seed": 0,
+  "n_subjects": 3,
+  "seq_per_subject": 1,
+  "seconds": 60.0,
+  "label_backend": "python",
+  "params_sha256": "4ca49e322a8dc737",
+  "bank_size": 0,
+  "NOTE": "Tham số nhiễu/STA mặc định là giả định (dấu † trong params.py); thay bằng Allan và số đo người thật trước khi huấn luyện thật."
+}

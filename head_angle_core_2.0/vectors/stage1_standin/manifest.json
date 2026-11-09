@@ -1,0 +1,13 @@
+{
+  "raw": "raw.csv",
+  "raw_sha256": "96c994a9b25265521fc6245248de4f9842452b4c16c84dd6a92548dc883460b3",
+  "expected": "expected_stage1.csv",
+  "expected_sha256": "f42bd12b3db97437572145d220893dace4639fcc79f4639d95642b5c15d02a62",
+  "stage1_script": "head_angle_monitor_ble__final_fixed.py",
+  "stage1_script_sha256": "13789c0e34b3160030bdae71af443b895fb12bbf5cac75a619ae79078b281355",
+  "calib_samples": 150,
+  "n_samples": 1998,
+  "published": "published_stage1.csv",
+  "published_sha256": "95944ea68aa266f9e349579532e37e336dcad4d3a650196c946bea1e28b4828a",
+  "NOTE": "STAND-IN: d\u1eef li\u1ec7u m\u00f4 ph\u1ecfng v\u00e0 t\u1ec7p c\u00f4ng b\u1ed1 gi\u1ea3 l\u1eadp, ch\u1ec9 \u0111\u1ec3 th\u1eed \u0111\u01b0\u1eddng \u1ed1ng. Thay b\u1eb1ng b\u1ea3n ghi th\u1eadt c\u1ee7a Giai \u0111o\u1ea1n 1."
+}
